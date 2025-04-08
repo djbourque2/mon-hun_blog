@@ -41,6 +41,12 @@ p {
     /*background: url(../img/);*/
 }
 
+.dynimage {
+    display: flex;
+    width: 30%;
+    align-self: center;
+}
+
 footer {
     display: flex;
     width: 100%;
