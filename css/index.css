@@ -22,16 +22,19 @@ header {
     background-color: aqua;
 }
 
+p {
+    color: aliceblue;
+}
+
 #center {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background: url(../img/bg_textured.jpg);
 }
 
 .side {
     display: flex;
     width: 25%;
-    height: 100vh;
     background-color: blue;
     /*background: url(../img/);*/
 }
