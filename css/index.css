@@ -30,6 +30,8 @@ p {
     display: flex;
     flex-direction: column;
     background: url(../img/bg_textured.jpg);
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .side {
