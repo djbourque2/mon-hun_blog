@@ -1,6 +1,6 @@
 * {
     margin: 0% 0% 0% 0%;
-    font-family: "Rubik Marker Hatch";
+    font-family: "Jua";
     letter-spacing: 2px;
 }
 
@@ -45,14 +45,15 @@ p {
     background-size: 300%;
 }
 
+h1, h2, h3 {
+    font-family: "Hanalei Fill";
+    text-align: center;
+}
+
 .dynimage {
     display: flex;
     width: 30%;
     align-self: center;
-}
-
-h1 {
-    font-family: "Rubik Lines";
 }
 
 footer {
@@ -63,16 +64,16 @@ footer {
     background-color: bisque;
 }
 
-.rubik-marker-hatch-regular {
-    font-family: "Rubik Marker Hatch", system-ui;
-    font-weight: 50;
+.hanalei-fill-regular {
+    font-family: "Hanalei Fill", system-ui;
+    font-weight: 400;
     font-style: normal;
 }
 
-.rubik-lines-regular {
-    font-family: "Rubik Lines", system-ui;
-    font-weight: 50;
+.jua-regular {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
     font-style: normal;
-}
+}  
   
   
