@@ -1,5 +1,7 @@
 * {
     margin: 0% 0% 0% 0%;
+    font-family: 'Rubik Marker Hatch';
+    letter-spacing: 2px;
 }
 
 header {
@@ -56,3 +58,17 @@ footer {
     top: 0px;
     background-color: bisque;
 }
+
+.rubik-marker-hatch-regular {
+    font-family: "Rubik Marker Hatch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rubik-lines-regular {
+    font-family: "Rubik Lines", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
