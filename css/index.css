@@ -1,6 +1,6 @@
 * {
     margin: 0% 0% 0% 0%;
-    font-family: 'Rubik Marker Hatch';
+    font-family: "Rubik Marker Hatch";
     letter-spacing: 2px;
 }
 
@@ -51,6 +51,10 @@ p {
     align-self: center;
 }
 
+h1 {
+    font-family: "Rubik Lines";
+}
+
 footer {
     display: flex;
     width: 100%;
@@ -61,14 +65,14 @@ footer {
 
 .rubik-marker-hatch-regular {
     font-family: "Rubik Marker Hatch", system-ui;
-    font-weight: 400;
+    font-weight: 50;
     font-style: normal;
 }
 
 .rubik-lines-regular {
     font-family: "Rubik Lines", system-ui;
-    font-weight: 400;
+    font-weight: 50;
     font-style: normal;
-  }
+}
   
   
