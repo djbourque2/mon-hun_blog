@@ -31,7 +31,7 @@ header {
     background-image: url(../img/fatalis_header.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: calc(50vw - 565px)
+    background-position: calc(50vw - 565px);
 }
 
 #bod {
