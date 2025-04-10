@@ -9,6 +9,10 @@ h1, h2, h3 {
     text-align: center;
 }
 
+p {
+    color: aliceblue;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -60,10 +64,6 @@ footer {
     background-color: aqua;
 }
 
-p {
-    color: aliceblue;
-}
-
 #center {
     display: flex;
     flex-direction: column;
@@ -71,6 +71,8 @@ p {
     background-size: 75%;
     padding: 75px 5% 75px 5%;
 }
+
+/* Classes */
 
 .side {
     display: flex;
@@ -85,6 +87,8 @@ p {
     width: 30%;
     align-self: center;
 }
+
+/* Fonts */
 
 .hanalei-fill-regular {
     font-family: "Hanalei Fill", system-ui;
