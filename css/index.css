@@ -11,6 +11,9 @@ h1, h2, h3 {
 
 p {
     color: aliceblue;
+    font-size: large;
+    font-family: "Special Gothic Condensed One";
+    font-weight: 600;
 }
 
 hr {
@@ -46,6 +49,12 @@ footer {
     background-position: bottom;
 }
 
+article {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
 /* IDs */
 
 #true {
@@ -75,6 +84,14 @@ footer {
     background-color: aqua;
 }
 
+#left {
+    background: linear-gradient(to left, rgb(50, 0, 0), 10%, transparent), url(../img/tapestry_texture.jpg);
+}
+
+#right {
+    background: linear-gradient(to right, rgb(50, 0, 0), 10%, transparent), url(../img/tapestry_texture.jpg);
+}
+
 #center {
     display: flex;
     flex-direction: column;
@@ -86,7 +103,14 @@ footer {
     padding: 75px 5% 75px 5%;
 }
 
-#paper { /*use different font and colors*/
+/* Classes */
+
+.side {
+    display: flex;
+    width: 25%;
+}
+
+.paper { /*use different font and colors*/
     background: 
         linear-gradient(to bottom, rgb(190, 160, 62), 1%, transparent), 
         linear-gradient(to top, rgb(190, 160, 62), 1%, transparent),
@@ -98,41 +122,27 @@ footer {
     border-radius: 5px;
 }
 
-#paper p {
+.paper p {
     color: black;
-    font-family: "Rabocra";
-}
-
-#paper h1 {
-    font-family: "Jua";
-}
-
-/* Classes */
-
-.side {
-    display: flex;
-    width: 25%;
-}
-
-#left {
-    background: linear-gradient(to left, rgb(50, 0, 0), 10%, transparent), url(../img/tapestry_texture.jpg);
-}
-
-#right {
-    background: linear-gradient(to right, rgb(50, 0, 0), 10%, transparent), url(../img/tapestry_texture.jpg);
 }
 
 .dynimage {
     display: flex;
-    width: 75%;
+    width: 50%;
     max-width: 50vmax;
     align-self: center;
+}
+
+.twos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 /* Fonts */
 
 @font-face {
-    font-family: "Rabocra";
+    font-family: "Hanalei Fill";
     src: url(../rabocra-font/Rabocra-1jY2j.otf);
 }
 
@@ -154,7 +164,12 @@ footer {
     font-style: normal;
 }
   
-
+.special-gothic-condensed-one-regular {
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
 
   
   
