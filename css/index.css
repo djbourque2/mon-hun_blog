@@ -13,6 +13,15 @@ p {
     color: aliceblue;
 }
 
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
 header {
     display: flex;
     align-items: center;
@@ -36,6 +45,8 @@ footer {
     background-attachment: fixed;
     background-position: bottom;
 }
+
+/* IDs */
 
 #true {
     position: fixed;
@@ -67,9 +78,33 @@ footer {
 #center {
     display: flex;
     flex-direction: column;
-    background: url(../img/tile_center2.jpg);
+    background: 
+        /*linear-gradient(to right, rgb(0, 0, 0), 3.3%, transparent), 
+        linear-gradient(to left, rgb(0, 0, 0), 3.3%, transparent),*/
+        url(../img/tile_center2.jpg);
     background-size: 75%;
     padding: 75px 5% 75px 5%;
+}
+
+#paper { /*use different font and colors*/
+    background: 
+        linear-gradient(to bottom, rgb(190, 160, 62), 1%, transparent), 
+        linear-gradient(to top, rgb(190, 160, 62), 1%, transparent),
+        linear-gradient(to left, rgb(190, 160, 62), 1%, transparent),
+        linear-gradient(to right, rgb(190, 160, 62), 1%, transparent),
+        white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+#paper p {
+    color: black;
+    font-family: "Rabocra";
+}
+
+#paper h1 {
+    font-family: "New Rocker";
 }
 
 /* Classes */
@@ -77,18 +112,29 @@ footer {
 .side {
     display: flex;
     width: 25%;
-    background-color: blue;
-    background: url(../img/tapestry_texture.jpg);
-    background-size: 300%;
+}
+
+#left {
+    background: linear-gradient(to left, rgb(50, 0, 0), 10%, transparent), url(../img/tapestry_texture.jpg);
+}
+
+#right {
+    background: linear-gradient(to right, rgb(50, 0, 0), 10%, transparent), url(../img/tapestry_texture.jpg);
 }
 
 .dynimage {
     display: flex;
-    width: 30%;
+    width: 75%;
+    max-width: 50vmax;
     align-self: center;
 }
 
 /* Fonts */
+
+@font-face {
+    font-family: "Rabocra";
+    src: url(../rabocra-font/Rabocra-1jY2j.otf);
+}
 
 .hanalei-fill-regular {
     font-family: "Hanalei Fill", system-ui;
@@ -100,6 +146,15 @@ footer {
     font-family: "Jua", sans-serif;
     font-weight: 400;
     font-style: normal;
-}  
+}
+
+.new-rocker-regular {
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+
   
   
