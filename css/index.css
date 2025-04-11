@@ -79,10 +79,10 @@ footer {
     display: flex;
     flex-direction: column;
     background: 
-        /*linear-gradient(to right, rgb(0, 0, 0), 3.3%, transparent), 
-        linear-gradient(to left, rgb(0, 0, 0), 3.3%, transparent),*/
+        linear-gradient(to right, rgb(65, 25, 13), 3.3%, transparent), 
+        linear-gradient(to left, rgb(65, 25, 13), 3.3%, transparent),
         url(../img/tile_center2.jpg);
-    background-size: 75%;
+    background-size: 100%;
     padding: 75px 5% 75px 5%;
 }
 
