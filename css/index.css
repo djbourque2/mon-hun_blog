@@ -139,6 +139,11 @@ article {
     flex-direction: row;
 }
 
+.twos p {
+    width: 40%;
+    margin: 5%;
+}
+
 /* Fonts */
 
 @font-face {
