@@ -1,1 +1,35 @@
 /*--*/
+* {
+    margin: 0% 0% 0% 0%;
+    letter-spacing: 2px;
+    font-family: "Hanalei Fill";
+}
+
+body {
+    display: flex;
+    background-image: url(../../img/bg_firstview.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom left;
+
+    justify-content: center;
+    padding-top: 60px;
+}
+
+#slate {
+    display: flex;
+    width: 80vmax;
+    height: 600px;
+    background-color: antiquewhite;
+}
+
+@font-face {
+    font-family: "Hanalei Fill";
+    src: url(../../rabocra-font/Rabocra-1jY2j.otf);
+}
+
+.new-rocker-regular {
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
