@@ -19,8 +19,10 @@ body {
 #slate {
     display: flex;
     width: 80vmax;
-    height: 600px;
-    background-color: antiquewhite;
+    min-height: 600px;
+    border-radius: 0.75vmax;
+    background-color: hsl(0, 0%, 50%);
+    background-image: url(../img/monhun_slate.png);
 }
 
 @font-face {
