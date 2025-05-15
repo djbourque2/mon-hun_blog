@@ -5,25 +5,26 @@
     font-family: "Hanalei Fill";
 }
 
-body {
+.outside {
     display: flex;
-    background-image: url(../../img/bg_firstview.jpg);
+    background-image: url(../../img/steppe.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom left;
     background-size: cover;
 
     justify-content: center;
-    padding-top: 60px;
+    padding-top: 10vmax;
+    padding-bottom: 10vmax;
 }
 
-#slate {
+.slate {
     display: flex;
     width: 80vmax;
-    min-height: 105vmax;
-    border-radius: 0.75vmax;
+    min-height: 107vmax;
     background-color: transparent;
     background-image: url(../img/monhun_slate.png);
+    background-position: center;
     background-size: cover;
 }
 
