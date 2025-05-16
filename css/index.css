@@ -46,7 +46,7 @@ footer {
     width: 100%;
     height: 15vmax;
     top: 0px;
-}
+} 
 
 article {
     display: flex;
@@ -84,19 +84,26 @@ article {
 }
 
 #left {
-    background: linear-gradient(to left, rgb(50, 0, 0), 10%, transparent), url(../img/tapestry_texture.jpg);
+    background: 
+        linear-gradient(to left, rgb(50, 0, 0), 3.3vw, transparent),
+        linear-gradient(to top, rgb(50, 0, 0), 3.3vw, transparent), 
+        url(../img/tapestry_texture.jpg);
 }
 
 #right {
-    background: linear-gradient(to right, rgb(50, 0, 0), 10%, transparent), url(../img/tapestry_texture.jpg);
+    background: 
+        linear-gradient(to right, rgb(50, 0, 0), 3.3vw, transparent),
+        linear-gradient(to top, rgb(50, 0, 0), 3.3vw, transparent), 
+        url(../img/tapestry_texture.jpg);
 }
 
 #center {
     display: flex;
     flex-direction: column;
     background: 
-        linear-gradient(to right, rgb(65, 25, 13), 3.3%, transparent), 
-        linear-gradient(to left, rgb(65, 25, 13), 3.3%, transparent),
+        linear-gradient(to right, rgb(65, 25, 13), 3.3vw, transparent), 
+        linear-gradient(to left, rgb(65, 25, 13), 3.3vw, transparent),
+        linear-gradient(to top, rgb(65, 25, 13), 3.3vw, transparent),
         url(../img/tile_center2.jpg);
     background-size: 100%;
     padding: 75px 5% 75px 5%;
@@ -110,12 +117,25 @@ article {
 }
 
 .bottom {
-    display: flex;
+    display: none;
     width: 100%;
     height: 150px;
-    background-image: url(../img/tile_header.jpg);
-    background-size: contain;
+    background: 
+        linear-gradient(to bottom, rgb(39, 31, 0), 3.3vw, transparent),
+        linear-gradient(to top, rgb(100, 80, 0), 3.3vw, transparent),
+        url(../img/tile_center.jpg);
+    background-size: 100%;
 }
+
+/*
+.button {
+
+}
+
+.button a {
+    display: flex;
+}
+*/
 
 .paper { /*use different font and colors*/
     background: 
