@@ -22,6 +22,11 @@ p {
     font-weight: 600;
 }
 
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -57,23 +62,47 @@ article {
 /* IDs */
 
 #true {
+    display: flex;
+    justify-content: center;
     position: fixed;
     background-color: red;
     background-image: url(../img/tile_header.jpg);
     background-size: contain;
 }
 
+#sub {
+    display: flex;
+    position: relative;
+    bottom: -71%;
+    width: 50%;
+    height: 40%;
+    background-color: rgb(255, 120, 120);
+    background-image: url(../img/bg_textured.jpg);
+    background-blend-mode: hard-light;
+    border-radius: 0px 0px 20vmax 20vmax;
+    border-style: none double double double;
+    border-width: thick;
+    border-color: rgb(190, 160, 62);
+
+}
+
 #other {
     position: fixed;
     height: 226px;
     min-width: 1600px;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content:space-evenly;
 
     background-color: transparent;
     background-image: url(../img/fatalis_header.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: calc(50vw - 565px);
+}
+
+#other p {
+    position: relative;
+    bottom: -27%;
 }
 
 #bod {
