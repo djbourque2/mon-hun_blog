@@ -20,6 +20,7 @@ p {
     font-size: large;
     font-family: "Special Gothic Condensed One";
     font-weight: 600;
+    line-height: 1.6;
 }
 
 a, a:hover, a:visited, a:active {
@@ -39,11 +40,16 @@ hr {
 header {
     display: flex;
     align-items: center;
+    justify-content: center;
 
     width: 100%;
     height: 150px;
     top: 0px;
     background-color: black;
+}
+
+header p {
+    align-items: center;
 }
 
 footer {
@@ -89,7 +95,7 @@ article {
 #other {
     position: fixed;
     height: 226px;
-    min-width: 1600px;
+    min-width: 100vmax;
     flex-direction: row;
     justify-content:space-evenly;
 
@@ -109,8 +115,9 @@ article {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-color: aqua;
+    background-color: transparent;
 }
+
 
 #left {
     background: 
@@ -126,6 +133,7 @@ article {
         url(../img/tapestry_texture.jpg);
 }
 
+
 #center { /*looks like a wooden table rather than a tapestry*/
     display: flex;
     flex-direction: column;
@@ -133,7 +141,7 @@ article {
         linear-gradient(to right, rgb(65, 25, 13), 3.3vw, transparent), 
         linear-gradient(to left, rgb(65, 25, 13), 3.3vw, transparent),
         linear-gradient(to top, rgb(65, 25, 13), 3.3vw, transparent),
-        url(../img/tile_center2.jpg);
+        url(../img/tile_center_weave-test.jpg);
     background-size: 100%;
     padding: 75px 5% 75px 5%;
 }
@@ -144,27 +152,6 @@ article {
     display: flex;
     width: 25%;
 }
-
-.bottom {
-    display: none;
-    width: 100%;
-    height: 150px;
-    background: 
-        linear-gradient(to bottom, rgb(39, 31, 0), 3.3vw, transparent),
-        linear-gradient(to top, rgb(100, 80, 0), 3.3vw, transparent),
-        url(../img/tile_center.jpg);
-    background-size: 100%;
-}
-
-/*
-.button {
-
-}
-
-.button a {
-    display: flex;
-}
-*/
 
 .paper { /*use different font and colors*/
     background: 
@@ -177,10 +164,25 @@ article {
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
+    /*box-shadow: 2px 1px 12px 3px rgba(0, 0, 0, 0.75);*/
 }
 
 .paper p {
     color: black;
+}
+
+.patch {
+    background: url(../img/monhun-patch.jpg);
+    background-size: 70%;
+    border-radius: 15px;
+    padding: 50px 30px 50px 30px;
+    outline-style: dashed;
+    outline-color: yellow;
+    outline-offset: -8px;
+    text-shadow: 0px 0px 5px rgb(31, 0, 15);
+    box-shadow: 
+        2px 1px 12px 3px rgba(0, 0, 0, 0.75), 
+        2px 1px 0px 0px rgb(39, 15, 5);
 }
 
 .dynimage {
