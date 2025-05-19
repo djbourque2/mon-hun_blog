@@ -126,7 +126,7 @@ article {
         url(../img/tapestry_texture.jpg);
 }
 
-#center {
+#center { /*looks like a wooden table rather than a tapestry*/
     display: flex;
     flex-direction: column;
     background: 
