@@ -5,6 +5,7 @@
     font-family: "Hanalei Fill";
     align-items: center;
     justify-content: center;
+    line-height: 1.8;
 }
 
 body {
@@ -16,6 +17,13 @@ header {
     position: fixed;
     height: 10vmax;
     background: white;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0% 10%;
 }
 
 a, a:hover, a:visited, a:active {
@@ -57,12 +65,29 @@ a, a:hover, a:visited, a:active {
     flex-direction: column;
     justify-content: space-around;
 
-    width: 80vmax;
+    width: 75vmax;
     min-height: 107vmax;
+    padding: 5vmax;
+    
     background-color: transparent;
     background-image: url(../img/monhun_slate.png);
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.sub-art {
+    display: flex;
+    flex-direction: column;
+    size: 50% 50%;
+    max-width: 55vw;
+    justify-content: space-between;
+}
+
+.dynimage {
+    display: flex;
+    width: 50%;
+    max-width: 50vmax;
+    align-self: center;
 }
 
 .fade1 {
