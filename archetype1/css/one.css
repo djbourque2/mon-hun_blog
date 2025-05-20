@@ -109,6 +109,13 @@ a:hover {
     align-self: center;
 }
 
+.loneimage {
+    display: flex;
+    width: 100%;
+    max-width: 40vmax;
+    align-self: center;
+}
+
 .fade1 {
     background: linear-gradient(to top, rgb(0, 0, 0), 50%, transparent);
     width: 100%;
