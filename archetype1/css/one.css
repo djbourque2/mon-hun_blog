@@ -33,6 +33,7 @@ a, a:hover, a:visited, a:active {
     background-size: cover;
 
     justify-content: center;
+    justify-items: center;
     padding-top: 10vmax;
     /*padding-bottom: 10vmax;*/
 }
@@ -53,6 +54,9 @@ a, a:hover, a:visited, a:active {
 
 .slate {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
     width: 80vmax;
     min-height: 107vmax;
     background-color: transparent;
