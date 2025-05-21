@@ -23,6 +23,8 @@ header {
     top: 2.5vh;
     justify-content: space-around;
     align-items: center;
+
+    font-family: "Special Gothic Condensed One";
 }
 
 header a {
@@ -47,10 +49,6 @@ article {
     flex-direction: row;
     align-items: center;
     margin: 0% 10%;
-}
-
-a {
-    font-family: "Special Gothic Condensed One";
 }
 
 a, a:visited, a:active {
