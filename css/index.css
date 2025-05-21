@@ -203,10 +203,9 @@ article {
         2px 1px 0px 0px rgb(39, 15, 5);
 }
 
-patch h1,h2,h3 {
+.patch h1,h2,h3 {
     color: aliceblue;
     font-family: "Special Gothic Condensed One";
-
 }
 
 .dynimage {
@@ -235,7 +234,7 @@ patch h1,h2,h3 {
     justify-content: center;
 
     background-color: rgb(255, 120, 120);
-    background-image: url(../../img/bg_textured.jpg);
+    background-image: url(../img/bg_textured.jpg);
     background-blend-mode: hard-light;
 
     width: 10vw;
@@ -245,6 +244,10 @@ patch h1,h2,h3 {
     border-style: double;
     border-width: thick;
     border-color: rgb(190, 160, 62);
+}
+
+a h3 {
+    color:aliceblue;
 }
 
 /* Fonts */
