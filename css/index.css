@@ -201,9 +201,6 @@ article {
     box-shadow: 
         2px 1px 12px 3px rgba(0, 0, 0, 0.75), 
         2px 1px 0px 0px rgb(39, 15, 5);
-}
-
-.patch h2 {
     color: aliceblue;
     font-family: "Special Gothic Condensed One";
 }
@@ -246,7 +243,7 @@ article {
     border-color: rgb(190, 160, 62);
 }
 
-.twos a h3 {
+.twos h3 {
     color: aliceblue;
     font-family: "Special Gothic Condensed One";
 }
