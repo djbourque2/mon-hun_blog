@@ -35,6 +35,8 @@ a, a:visited, a:active {
 
 a:hover {
     text-decoration: underline;
+    text-decoration-color: aliceblue;
+    text-decoration-thickness: 3px;
 }
 
 hr {
@@ -201,6 +203,12 @@ article {
         2px 1px 0px 0px rgb(39, 15, 5);
 }
 
+patch h1,h2,h3 {
+    color: aliceblue;
+    font-family: "Special Gothic Condensed One";
+
+}
+
 .dynimage {
     display: flex;
     width: 50%;
@@ -211,12 +219,32 @@ article {
 .twos {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .twos p {
-    width: 40%;
+    width: 80%;
     margin: 5%;
+}
+
+.twos a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(255, 120, 120);
+    background-image: url(../../img/bg_textured.jpg);
+    background-blend-mode: hard-light;
+
+    width: 10vw;
+    height: 7.5vh;
+
+    border-radius: 10vw;
+    border-style: double;
+    border-width: thick;
+    border-color: rgb(190, 160, 62);
 }
 
 /* Fonts */
