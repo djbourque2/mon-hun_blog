@@ -49,6 +49,10 @@ article {
     margin: 0% 10%;
 }
 
+a {
+    font-family: "Special Gothic Condensed One";
+}
+
 a, a:visited, a:active {
   color: white;
   text-decoration: none;
