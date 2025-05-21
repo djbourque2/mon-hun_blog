@@ -10,6 +10,7 @@
 body {
     align-content: center;
     justify-content: center;
+    font-family: "Hanalei Fill";
 }
 
 header {
@@ -49,7 +50,6 @@ article {
     flex-direction: row;
     align-items: center;
     margin: 0% 10%;
-    font-family: "Hanalei Fill";
 }
 
 a, a:visited, a:active {
